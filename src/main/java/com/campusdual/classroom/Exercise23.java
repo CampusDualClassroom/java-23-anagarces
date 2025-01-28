@@ -22,7 +22,7 @@ public class Exercise23 {
 
             map.put(key, value);
                 System.out.println("Nuevo valor añadido.");
-             return value;
+             return map.get(key);
     }
 
 
